@@ -1,0 +1,28 @@
+{
+    "model_name": "Diabetic Retinopathy Classifier",
+    "framework": "TensorFlow/Keras",
+    "version": "2.20.0",
+    "architecture": "efficientnet_b3",
+    "input_shape": [
+        224,
+        224,
+        3
+    ],
+    "classes": [
+        "DR",
+        "No_DR"
+    ],
+    "class_mapping": {
+        "DR": 0,
+        "No_DR": 1
+    },
+    "test_accuracy": 0.9696969985961914,
+    "test_auc": 0.9955002665519714,
+    "training_time_minutes": 13.6,
+    "hyperparameters": {
+        "epochs": 25,
+        "batch_size": 32,
+        "learning_rate": 0.0001,
+        "dropout": 0.3
+    }
+}
