@@ -1,12 +1,10 @@
-# 🩺 Diabetic Retinopathy Detection System
+# Diabetic Retinopathy Detection System
+
+**Live Demo:** [https://diabetic-retinopathy-detection-89.streamlit.app/](https://diabetic-retinopathy-detection-89.streamlit.app/)
 
 An AI-powered web application for automated detection of Diabetic Retinopathy (DR) from retinal fundus images using deep learning.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red)
-
-## 🔍 Overview
+## Overview
 
 Diabetic Retinopathy is a diabetes complication that affects the eyes, potentially leading to blindness if left untreated. This application uses a deep learning model based on EfficientNetB3 architecture to automatically detect signs of diabetic retinopathy from retinal images.
 
@@ -16,30 +14,30 @@ Diabetic Retinopathy is a diabetes complication that affects the eyes, potential
 - **Architecture:** EfficientNetB3
 - **Training Time:** ~14 minutes
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- 🖼️ **Single Image Analysis**: Upload and analyze individual retinal images
-- 📊 **Batch Processing**: Process multiple images simultaneously
-- 📈 **Confidence Scores**: View prediction confidence with visual progress bars
-- 📄 **Downloadable Reports**: Generate detailed text reports for each analysis
-- 💾 **CSV Export**: Download batch analysis results in CSV format
+- **Single Image Analysis**: Upload and analyze individual retinal images
+- **Batch Processing**: Process multiple images simultaneously
+- **Confidence Scores**: View prediction confidence with visual progress bars
+- **Downloadable Reports**: Generate detailed text reports for each analysis
+- **CSV Export**: Download batch analysis results in CSV format
 
 ### User Interface
-- 🎨 Modern, responsive design with gradient styling
-- 📱 Mobile-friendly layout
-- 🔄 Real-time progress indicators
-- 📊 Interactive data visualization
-- ℹ️ Educational information about Diabetic Retinopathy
+- Modern, responsive design with gradient styling
+- Mobile-friendly layout
+- Real-time progress indicators
+- Interactive data visualization
+- Educational information about Diabetic Retinopathy
 
 ### Technical Features
-- ⚡ Fast inference using TensorFlow/Keras
-- 🔄 Automatic image preprocessing
-- 🎯 High accuracy predictions (96.97%)
-- 📦 Efficient model caching
-- 🛡️ Robust error handling
+- Fast inference using TensorFlow/Keras
+- Automatic image preprocessing
+- High accuracy predictions (96.97%)
+- Efficient model caching
+- Robust error handling
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 diabetic-retinopathy-detection/
@@ -69,7 +67,7 @@ diabetic-retinopathy-detection/
 └── .venv/                         # Virtual environment (optional)
 ```
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -117,7 +115,7 @@ The repository includes sample test images for verification:
 
 Use these images to test the application functionality.
 
-## 🎮 Usage
+## Usage
 
 ### Starting the Application
 
@@ -161,7 +159,7 @@ The application includes test images in the `sample_images/` folder:
 3. Batch process all 8 sample images → Should show mixed results
 ```
 
-## 🧠 Model Information
+## Model Information
 
 ### Architecture
 - **Base Model:** EfficientNetB3
@@ -191,21 +189,7 @@ The application includes test images in the `sample_images/` folder:
 3. EfficientNet-specific preprocessing
 4. Normalization
 
-## 📸 Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main_interface.png)
-
-### Positive Detection
-![DR Detected](screenshots/dr_detected.png)
-
-### Negative Detection
-![No DR](screenshots/no_dr.png)
-
-### Batch Processing
-![Batch Processing](screenshots/batch_processing.png)
-
-## ⚠️ Disclaimer
+## Disclaimer
 
 **IMPORTANT: FOR EDUCATIONAL PURPOSES ONLY**
 
@@ -222,7 +206,7 @@ This application is designed for educational and research purposes only. It is *
 - Professional eye examinations
 - Clinical decision-making
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Model Not Loading
 
@@ -268,7 +252,7 @@ streamlit run app.py
 # Upload all 8 sample images → Expected: 5 DR, 3 No DR
 ```
 
-## 📦 Requirements
+## Requirements
 
 ```txt
 streamlit>=1.28.0
@@ -278,7 +262,7 @@ pandas>=2.0.0
 Pillow>=10.0.0
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -294,7 +278,7 @@ Contributions are welcome! Please follow these steps:
 - Update documentation for new features
 - Test thoroughly before submitting PR
 
-## 📝 License
+## License
 
 This project is licensed for **Educational Use Only**. 
 
@@ -303,11 +287,11 @@ This project is licensed for **Educational Use Only**.
 - Not for clinical/medical use
 - Not for diagnosis or treatment
 
-## 👥 Authors
+## Authors
 
 - **Haroon Iqbal** - *Initial work* - [YourGitHub](https://github.com/Haroon-89)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - EfficientNet architecture by Google Research
 - TensorFlow and Keras teams
@@ -315,7 +299,7 @@ This project is licensed for **Educational Use Only**.
 - Diabetic Retinopathy Detection Dataset contributors
 - Medical professionals for domain expertise
 
-## 📞 Contact
+## Contact
 
 For questions, suggestions, or issues:
 
@@ -323,14 +307,14 @@ For questions, suggestions, or issues:
 - **GitHub Issues:** [Create an issue](https://github.com/Haroon-89/diabetic-retinopathy-detection/issues)
 - **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/haroon-iqbal-drabu)
 
-## 🔗 Useful Links
+## Useful Links
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs)
 - [EfficientNet Paper](https://arxiv.org/abs/1905.11946)
 - [Diabetic Retinopathy Information](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/diabetic-retinopathy)
 
-## 📊 Roadmap
+## Roadmap
 
 ### Planned Features
 - [ ] Multi-class classification (severity levels)
@@ -350,6 +334,6 @@ For questions, suggestions, or issues:
 
 ---
 
-**⭐ If you find this project helpful, please consider giving it a star!**
+**If you find this project helpful, please consider giving it a star!**
 
-**Made with ❤️ for the AI and Healthcare community**
+**Made with care for the AI and Healthcare community**
